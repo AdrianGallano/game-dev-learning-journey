@@ -1,0 +1,15 @@
+C:\Users\Aid\development\c#\Learning\PartOne\bin\Debug\net7.0\PartOne.exe
+C:\Users\Aid\development\c#\Learning\PartOne\bin\Debug\net7.0\PartOne.deps.json
+C:\Users\Aid\development\c#\Learning\PartOne\bin\Debug\net7.0\PartOne.runtimeconfig.json
+C:\Users\Aid\development\c#\Learning\PartOne\bin\Debug\net7.0\PartOne.dll
+C:\Users\Aid\development\c#\Learning\PartOne\bin\Debug\net7.0\PartOne.pdb
+C:\Users\Aid\development\c#\Learning\PartOne\obj\Debug\net7.0\PartOne.csproj.AssemblyReference.cache
+C:\Users\Aid\development\c#\Learning\PartOne\obj\Debug\net7.0\PartOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aid\development\c#\Learning\PartOne\obj\Debug\net7.0\PartOne.AssemblyInfoInputs.cache
+C:\Users\Aid\development\c#\Learning\PartOne\obj\Debug\net7.0\PartOne.AssemblyInfo.cs
+C:\Users\Aid\development\c#\Learning\PartOne\obj\Debug\net7.0\PartOne.csproj.CoreCompileInputs.cache
+C:\Users\Aid\development\c#\Learning\PartOne\obj\Debug\net7.0\PartOne.dll
+C:\Users\Aid\development\c#\Learning\PartOne\obj\Debug\net7.0\refint\PartOne.dll
+C:\Users\Aid\development\c#\Learning\PartOne\obj\Debug\net7.0\PartOne.pdb
+C:\Users\Aid\development\c#\Learning\PartOne\obj\Debug\net7.0\PartOne.genruntimeconfig.cache
+C:\Users\Aid\development\c#\Learning\PartOne\obj\Debug\net7.0\ref\PartOne.dll
