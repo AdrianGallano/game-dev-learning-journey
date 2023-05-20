@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aid\\development\\c#\\c#Learning\\CsPartOne\\PartOne.csproj",
-      "projectName": "PartOne",
-      "projectPath": "C:\\Users\\Aid\\development\\c#\\c#Learning\\CsPartOne\\PartOne.csproj",
+      "projectUniqueName": "C:\\Users\\Aid\\development\\c#\\c#Learning\\CsPartTwo\\SimpleAuthentication.csproj",
+      "projectName": "SimpleAuthentication",
+      "projectPath": "C:\\Users\\Aid\\development\\c#\\c#Learning\\CsPartTwo\\SimpleAuthentication.csproj",
       "packagesPath": "C:\\Users\\Aid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aid\\development\\c#\\c#Learning\\CsPartOne\\obj\\",
+      "outputPath": "C:\\Users\\Aid\\development\\c#\\c#Learning\\CsPartTwo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\Aid\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",

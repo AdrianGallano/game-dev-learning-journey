@@ -1,0 +1,15 @@
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\bin\Debug\net7.0\SimpleAuthentication.exe
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\bin\Debug\net7.0\SimpleAuthentication.deps.json
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\bin\Debug\net7.0\SimpleAuthentication.runtimeconfig.json
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\bin\Debug\net7.0\SimpleAuthentication.dll
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\bin\Debug\net7.0\SimpleAuthentication.pdb
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\obj\Debug\net7.0\SimpleAuthentication.csproj.AssemblyReference.cache
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\obj\Debug\net7.0\SimpleAuthentication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\obj\Debug\net7.0\SimpleAuthentication.AssemblyInfoInputs.cache
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\obj\Debug\net7.0\SimpleAuthentication.AssemblyInfo.cs
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\obj\Debug\net7.0\SimpleAuthentication.csproj.CoreCompileInputs.cache
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\obj\Debug\net7.0\SimpleAuthentication.dll
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\obj\Debug\net7.0\refint\SimpleAuthentication.dll
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\obj\Debug\net7.0\SimpleAuthentication.pdb
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\obj\Debug\net7.0\SimpleAuthentication.genruntimeconfig.cache
+C:\Users\Aid\development\c#\c#Learning\CsPartTwo\obj\Debug\net7.0\ref\SimpleAuthentication.dll
