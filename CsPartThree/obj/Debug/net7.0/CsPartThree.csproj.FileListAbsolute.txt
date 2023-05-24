@@ -1,0 +1,15 @@
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\bin\Debug\net7.0\CsPartThree.exe
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\bin\Debug\net7.0\CsPartThree.deps.json
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\bin\Debug\net7.0\CsPartThree.runtimeconfig.json
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\bin\Debug\net7.0\CsPartThree.dll
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\bin\Debug\net7.0\CsPartThree.pdb
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\obj\Debug\net7.0\CsPartThree.csproj.AssemblyReference.cache
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\obj\Debug\net7.0\CsPartThree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\obj\Debug\net7.0\CsPartThree.AssemblyInfoInputs.cache
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\obj\Debug\net7.0\CsPartThree.AssemblyInfo.cs
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\obj\Debug\net7.0\CsPartThree.csproj.CoreCompileInputs.cache
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\obj\Debug\net7.0\CsPartThree.dll
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\obj\Debug\net7.0\refint\CsPartThree.dll
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\obj\Debug\net7.0\CsPartThree.pdb
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\obj\Debug\net7.0\CsPartThree.genruntimeconfig.cache
+C:\Users\Aid\development\c#\c#Learning\CsPartThree\obj\Debug\net7.0\ref\CsPartThree.dll

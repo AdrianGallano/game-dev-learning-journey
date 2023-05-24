@@ -1,0 +1,15 @@
+C:\Users\Aid\development\c#\c#Learning\PartFour\bin\Debug\net7.0\PartFour.exe
+C:\Users\Aid\development\c#\c#Learning\PartFour\bin\Debug\net7.0\PartFour.deps.json
+C:\Users\Aid\development\c#\c#Learning\PartFour\bin\Debug\net7.0\PartFour.runtimeconfig.json
+C:\Users\Aid\development\c#\c#Learning\PartFour\bin\Debug\net7.0\PartFour.dll
+C:\Users\Aid\development\c#\c#Learning\PartFour\bin\Debug\net7.0\PartFour.pdb
+C:\Users\Aid\development\c#\c#Learning\PartFour\obj\Debug\net7.0\PartFour.csproj.AssemblyReference.cache
+C:\Users\Aid\development\c#\c#Learning\PartFour\obj\Debug\net7.0\PartFour.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aid\development\c#\c#Learning\PartFour\obj\Debug\net7.0\PartFour.AssemblyInfoInputs.cache
+C:\Users\Aid\development\c#\c#Learning\PartFour\obj\Debug\net7.0\PartFour.AssemblyInfo.cs
+C:\Users\Aid\development\c#\c#Learning\PartFour\obj\Debug\net7.0\PartFour.csproj.CoreCompileInputs.cache
+C:\Users\Aid\development\c#\c#Learning\PartFour\obj\Debug\net7.0\PartFour.dll
+C:\Users\Aid\development\c#\c#Learning\PartFour\obj\Debug\net7.0\refint\PartFour.dll
+C:\Users\Aid\development\c#\c#Learning\PartFour\obj\Debug\net7.0\PartFour.pdb
+C:\Users\Aid\development\c#\c#Learning\PartFour\obj\Debug\net7.0\PartFour.genruntimeconfig.cache
+C:\Users\Aid\development\c#\c#Learning\PartFour\obj\Debug\net7.0\ref\PartFour.dll
