@@ -1,5 +1,8 @@
-﻿namespace CardWars{
-  class Program{
+﻿using CardWars.GamePlay;
+namespace CardWars
+{
+  class Program
+  {
 
     /* Defining my game
 
@@ -42,18 +45,13 @@
         -- BIOME PROPERTY
         -- BIOME CONDITIONS
 
-  
-
      */
 
 
-    static void Main(string[] args){
-
-      Console.BackgroundColor = ConsoleColor.Yellow;
-      Console.ForegroundColor = ConsoleColor.DarkGray; 
+    static void Main(string[] args)
+    {
       Console.WriteLine("CARD WARS!");
-
-      
+      Game.Play();
     }
   }
 }
