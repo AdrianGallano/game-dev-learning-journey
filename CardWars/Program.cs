@@ -1,4 +1,4 @@
-﻿using CardWars.GamePlay;
+﻿using CardWars;
 namespace CardWars
 {
   class Program

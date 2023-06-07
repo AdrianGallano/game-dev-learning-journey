@@ -1,10 +1,11 @@
 using System;
 
-namespace CardWars.GamePlay
+namespace CardWars
 {
   public class Game
   {
     public static List<Player> Players = new List<Player>();
+    public static Player? CurrentPlayer;
 
     public static void Play()
     {
@@ -22,7 +23,7 @@ namespace CardWars.GamePlay
 
       if (name == null || name == "") return false;
 
-      var tmpPlayer = new Player(name, 500, 25, 2000, 10);
+      var tmpPlayer = new Player(name, 25, 2000, 10);
 
       Players.Add(tmpPlayer);
 

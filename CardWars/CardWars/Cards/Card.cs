@@ -1,6 +1,7 @@
-using CardWars.Card.CardComponents;
+using CardWars.Cards.CardComponents;
+using CardWars;
 
-namespace CardWars.Card
+namespace CardWars.Cards
 {
   public abstract class Card
   {
@@ -16,7 +17,6 @@ namespace CardWars.Card
 
   public abstract class CardBeing : Card, CardSkillBeing
   {
-
     public int Attack;
     public int Defense;
     public int TroopCost;
@@ -30,33 +30,58 @@ namespace CardWars.Card
       this.TroopCost = TroopCost;
     }
 
-    public void Activate(int cost) { }
+    public void Activate()
+    {
+
+      if (Game.CurrentPlayer == null) return;
+      Game.CurrentPlayer.TotalTroops += this.TroopCost;
+
+    }
+
     public void DoAttack() { }
     public void DoDefend() { }
-
+    public void DoSpecialty() { }
   }
 
   public abstract class CardBuillding : Card, CardSkillBuilding
   {
 
     public int Durability;
+    public int AreaCost;
 
-    public CardBuillding(string Name, string Type, int Durability) : base(Name, Type)
+    public CardBuillding(string Name, string Type, int Durability, int AreaCost) : base(Name, Type)
     {
       this.Durability = Durability;
+      this.AreaCost = AreaCost;
     }
 
-    public void Activate(int cost) { }
+    public void Activate()
+    {
+
+      if (Game.CurrentPlayer == null) return;
+      Game.CurrentPlayer.TotalArea += AreaCost;
+
+    }
+
     public void Demolish() { }
 
   }
 
   public abstract class CardSpell : Card, CardSkillSpell
   {
+    public int ManaCost;
+    public CardSpell(string Name, string Type, int ManaCost) : base(Name, Type)
+    {
+      this.ManaCost = ManaCost;
+    }
 
-    public CardSpell(string Name, string Type) : base(Name, Type) { }
+    public void Activate()
+    {
 
-    public void Activate(int cost) { }
+      if (Game.CurrentPlayer == null) return;
+      Game.CurrentPlayer.Mana -= this.ManaCost;
+
+    }
   }
 }
 

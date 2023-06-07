@@ -1,17 +1,16 @@
-namespace CardWars.Card.CardComponents
+namespace CardWars.Cards.CardComponents
 {
 
   interface CardSkill
   {
-    public void Activate(int cost);
+    public void Activate();
   }
 
   interface CardSkillBeing : CardSkill
   {
-
     public void DoAttack();
     public void DoDefend();
-
+    public void DoSpecialty();
   }
 
   interface CardSkillBuilding : CardSkill
