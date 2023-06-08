@@ -1,5 +1,4 @@
-﻿using CardWars;
-namespace CardWars
+﻿namespace CardWars
 {
   class Program
   {
