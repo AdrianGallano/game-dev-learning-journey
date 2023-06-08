@@ -1,23 +1,22 @@
 namespace CardWars.Cards.CardComponents
 {
 
-  interface CardSkill
+  public interface ICardSkill
   {
     public void Activate();
+    public void Destroy();
   }
 
-  interface CardSkillBeing : CardSkill
+  public interface ICardSkillBeing : ICardSkill
   {
-    public void DoAttack();
-    public void DoDefend();
-    public void DoSpecialty();
+    public void DoAttack(int Damage);
+    public void DoDefend(int DefensePower);
+
   }
 
-  interface CardSkillBuilding : CardSkill
-  {
-    public void Demolish();
-  }
+  interface ICardSkillBuilding : ICardSkill { }
 
-  interface CardSkillSpell : CardSkill { }
+
+  interface ICardSkillSpell : ICardSkill { }
 
 }

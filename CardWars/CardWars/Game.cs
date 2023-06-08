@@ -1,5 +1,5 @@
 using System;
-
+using CardWars.Admin;
 namespace CardWars
 {
   public class Game
@@ -9,6 +9,7 @@ namespace CardWars
 
     public static void Play()
     {
+      Administration.RunAdmin();
       int playerMax = 2;
 
       while (Players.Count != playerMax)
