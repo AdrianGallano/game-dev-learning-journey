@@ -1348,7 +1348,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Humanizer >= 2.14.1"
+      "Humanizer >= 2.14.*"
     ]
   },
   "packageFolders": {
@@ -1400,7 +1400,7 @@
         "dependencies": {
           "Humanizer": {
             "target": "Package",
-            "version": "[2.14.1, )"
+            "version": "[2.14.*, )"
           }
         },
         "imports": [
