@@ -2,6 +2,7 @@ namespace CardWars
 {
   struct Area
   {
+    public delegate void DoEffect();
     public string Name;
     public string Type;
     public int AreaSQM;
@@ -15,6 +16,8 @@ namespace CardWars
 
     }
 
-    public void Effect() { }
+    public void Effect(DoEffect doEffect) {
+      doEffect();
+    }
   }
 }
