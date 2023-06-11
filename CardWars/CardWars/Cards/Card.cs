@@ -1,5 +1,3 @@
-using CardWars.Cards.CardComponents;
-
 namespace CardWars.Cards
 {
   public abstract class Card
@@ -16,7 +14,3 @@ namespace CardWars.Cards
   }
 
 }
-
-
-
-// the cards but i'll make interface here

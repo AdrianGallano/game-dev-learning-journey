@@ -24,6 +24,5 @@ namespace CardWars.Cards
     }
 
     public void Destroy() { }
-
   }
 }

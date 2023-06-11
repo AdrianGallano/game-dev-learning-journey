@@ -1,5 +1,6 @@
-using System;
 using CardWars.Admin;
+using CardWars.Events;
+
 namespace CardWars
 {
   public class Game
@@ -10,44 +11,8 @@ namespace CardWars
     public static void Play()
     {
       Administration.RunAdmin();
-      int playerMax = 2;
-
-      while (Players.Count != playerMax)
-      { // create player
-        PromptCreatePlayer();
-      }
-
-    }
-
-    public static bool CreatePlayer(string? name)
-    {
-
-      if (name == null || name == "") return false;
-
-      var tmpPlayer = new Player(name, 25, 2000, 10);
-
-      Players.Add(tmpPlayer);
-
-      return true;
-
-    }
-
-    public static void PromptCreatePlayer()
-    {
-
-      Console.Write($"Please Enter Player {Players.Count + 1} Name: ");
-
-      string? playerName = Console.ReadLine();
-
-      if (CreatePlayer(playerName))
-      {
-        Console.WriteLine($"Player Successfully Created.");
-      }
-      else
-      {
-        Console.WriteLine($"Please enter a name.");
-      }
-
+      PlayerCreation.EnterPlayerMax();
+      PlayerCreation.PlayerCreationLoop();
     }
   }
 }

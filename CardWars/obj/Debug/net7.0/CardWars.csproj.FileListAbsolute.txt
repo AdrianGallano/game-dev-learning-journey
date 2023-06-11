@@ -3,15 +3,11 @@ C:\Users\Aid\development\c#\c#Learning\CardWars\bin\Debug\net7.0\CardWars.deps.j
 C:\Users\Aid\development\c#\c#Learning\CardWars\bin\Debug\net7.0\CardWars.runtimeconfig.json
 C:\Users\Aid\development\c#\c#Learning\CardWars\bin\Debug\net7.0\CardWars.dll
 C:\Users\Aid\development\c#\c#Learning\CardWars\bin\Debug\net7.0\CardWars.pdb
-C:\Users\Aid\development\c#\c#Learning\CardWars\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Aid\development\c#\c#Learning\CardWars\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\Aid\development\c#\c#Learning\CardWars\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Aid\development\c#\c#Learning\CardWars\obj\Debug\net7.0\CardWars.csproj.AssemblyReference.cache
 C:\Users\Aid\development\c#\c#Learning\CardWars\obj\Debug\net7.0\CardWars.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Aid\development\c#\c#Learning\CardWars\obj\Debug\net7.0\CardWars.AssemblyInfoInputs.cache
 C:\Users\Aid\development\c#\c#Learning\CardWars\obj\Debug\net7.0\CardWars.AssemblyInfo.cs
 C:\Users\Aid\development\c#\c#Learning\CardWars\obj\Debug\net7.0\CardWars.csproj.CoreCompileInputs.cache
-C:\Users\Aid\development\c#\c#Learning\CardWars\obj\Debug\net7.0\CardWars.csproj.CopyComplete
 C:\Users\Aid\development\c#\c#Learning\CardWars\obj\Debug\net7.0\CardWars.dll
 C:\Users\Aid\development\c#\c#Learning\CardWars\obj\Debug\net7.0\refint\CardWars.dll
 C:\Users\Aid\development\c#\c#Learning\CardWars\obj\Debug\net7.0\CardWars.pdb
