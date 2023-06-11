@@ -1,34 +1,35 @@
 using System.IO;
+using FileApp.Exceptions;
+using System.Diagnostics;
 
 namespace FileApp
 {
   public static class FilePaths
   {
-    public static void GetCurrentDirectory()
+    public static string GetCurrentDirectory()
     {
-      Console.WriteLine("\nCurrent Directory\n");
-      Console.WriteLine(Directory.GetCurrentDirectory());
+      return Directory.GetCurrentDirectory();
     }
 
-    public static void GetRootDirectory()
+    public static string GetRootDirectory()
     {
-      Console.WriteLine("\nRoot Directory\n");
-      string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-      Console.WriteLine(path);
+
+      return Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
     }
 
-    public static string? JoinPaths(params string[] paths)
+    public static string? JoinPaths(string? CurrentDirectory, params string[]? Paths)
     {
-      if (paths.Length == 0) return null;
-      string? pathHolder = string.Empty;
+      if (Paths == null) throw new EmptyPathException("Cannot have empty path.");
+      if (Paths.Length == 0) throw new EmptyPathException("Cannot have empty path.");
+      if (CurrentDirectory == null) throw new EmptyStringException("Cannot have empty directory.");
+
+      string? pathHolder = CurrentDirectory;
 
 
-      Console.WriteLine("\nJoint Path\n");
-      foreach (string path in paths)
+      foreach (string path in Paths)
       {
         pathHolder = Path.Combine(pathHolder, path);
       }
-      Console.WriteLine(pathHolder);
       return pathHolder;
     }
 
@@ -37,8 +38,6 @@ namespace FileApp
       if (fileName == null) return null;
 
       string extension = Path.GetExtension(fileName);
-      Console.WriteLine("\nExtension\n");
-      Console.WriteLine($"The extension of {fileName} is {extension}");
 
       return extension;
     }
@@ -52,6 +51,30 @@ namespace FileApp
       Console.WriteLine("\nFile Information\n");
       Console.WriteLine($"File Name: {fileInfo.Name}{Environment.NewLine} File Extension: {fileInfo.Extension}{Environment.NewLine}");
       Console.WriteLine($"File Creation: {fileInfo.CreationTime}{Environment.NewLine} File Directory: {fileInfo.Directory}{Environment.NewLine}");
+    }
+
+    public static List<string> GetAllWithExtension(string? directory, string? extension)
+
+    {
+      if (extension == null) throw new NullReferenceException("cannot have null extension");
+      if (extension == "") throw new EmptyStringException("Cannot have empty extension");
+      if (directory == null) throw new NullReferenceException("cannot have null directory");
+      if (directory == "") throw new EmptyStringException("Cannot have empty directory");
+
+      Debug.WriteLine(directory);
+      IEnumerable<string> AllFiles = Directory.EnumerateFiles(directory, "*", SearchOption.AllDirectories);
+      List<string> filesWithExtension = new List<string>();
+
+      foreach (string file in AllFiles)
+      {
+        Debug.WriteLine(FilePaths.GetExtension(file) == extension);
+        if (FilePaths.GetExtension(file) == extension)
+        {
+          filesWithExtension.Add(file);
+        }
+      }
+
+      return filesWithExtension;
     }
   }
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XuU8b1qTShTsO8XDXJK55uurYnuKt1b+7dT2KbAlBk8CliHtfTv8P4r9VOrT1kna/++8E2vDQNy8EqcFD9oATQ==",
+  "dgSpecHash": "I8S4mw/kGerOd9iqOZMZ0J/GY0l+SqmuRHGQ1+LUlk9uNcsUMFL7dhjietvdt2YN40c4lrkbA5qZcvyH74lRPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aid\\development\\c#\\c#Learning\\FileApp\\FileApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Aid\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
