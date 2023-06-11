@@ -1,23 +1,21 @@
-namespace CardWars
+namespace CardWars;
+
+struct Area
 {
-  struct Area
+  public delegate void DoEffect();
+  public string Name;
+  public string Type;
+  public int AreaSQM;
+  public static List<Area> Biomes = new List<Area>();
+
+  public Area(string Name, string Type, int AreaSQM)
   {
-    public delegate void DoEffect();
-    public string Name;
-    public string Type;
-    public int AreaSQM;
-    public static List<Area> Biomes = new List<Area>();
-    
-    public Area(string Name, string Type, int AreaSQM)
-    {
-      this.Name = Name;
-      this.Type = Type;
-      this.AreaSQM = AreaSQM;
+    this.Name = Name;
+    this.Type = Type;
+    this.AreaSQM = AreaSQM;
 
-    }
-
-    public void Effect(DoEffect doEffect) {
-      doEffect();
-    }
   }
+
+  public void Effect(DoEffect doEffect) => doEffect();
+
 }

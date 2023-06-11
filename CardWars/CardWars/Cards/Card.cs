@@ -1,16 +1,15 @@
-namespace CardWars.Cards
+namespace CardWars.Cards;
+
+public abstract class Card
 {
-  public abstract class Card
+  public string Name { get; set; }
+  public string Type { get; set; }
+  public bool isActivated = false;
+
+  public Card(string Name, string Type)
   {
-    public string Name { get; set; }
-    public string Type { get; set; }
-    public bool isActivated = false;
-
-    public Card(string Name, string Type)
-    {
-      this.Name = Name;
-      this.Type = Type;
-    }
+    this.Name = Name;
+    this.Type = Type;
   }
-
 }
+

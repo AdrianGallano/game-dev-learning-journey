@@ -1,0 +1,15 @@
+C:\Users\Aid\development\c#\c#Learning\Immutability\bin\Debug\net7.0\Immutability.exe
+C:\Users\Aid\development\c#\c#Learning\Immutability\bin\Debug\net7.0\Immutability.deps.json
+C:\Users\Aid\development\c#\c#Learning\Immutability\bin\Debug\net7.0\Immutability.runtimeconfig.json
+C:\Users\Aid\development\c#\c#Learning\Immutability\bin\Debug\net7.0\Immutability.dll
+C:\Users\Aid\development\c#\c#Learning\Immutability\bin\Debug\net7.0\Immutability.pdb
+C:\Users\Aid\development\c#\c#Learning\Immutability\obj\Debug\net7.0\Immutability.csproj.AssemblyReference.cache
+C:\Users\Aid\development\c#\c#Learning\Immutability\obj\Debug\net7.0\Immutability.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aid\development\c#\c#Learning\Immutability\obj\Debug\net7.0\Immutability.AssemblyInfoInputs.cache
+C:\Users\Aid\development\c#\c#Learning\Immutability\obj\Debug\net7.0\Immutability.AssemblyInfo.cs
+C:\Users\Aid\development\c#\c#Learning\Immutability\obj\Debug\net7.0\Immutability.csproj.CoreCompileInputs.cache
+C:\Users\Aid\development\c#\c#Learning\Immutability\obj\Debug\net7.0\Immutability.dll
+C:\Users\Aid\development\c#\c#Learning\Immutability\obj\Debug\net7.0\refint\Immutability.dll
+C:\Users\Aid\development\c#\c#Learning\Immutability\obj\Debug\net7.0\Immutability.pdb
+C:\Users\Aid\development\c#\c#Learning\Immutability\obj\Debug\net7.0\Immutability.genruntimeconfig.cache
+C:\Users\Aid\development\c#\c#Learning\Immutability\obj\Debug\net7.0\ref\Immutability.dll
