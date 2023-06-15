@@ -1,4 +1,5 @@
 using CardWars.Cards;
+using CardWars.Exceptions;
 
 namespace CardWars;
 
@@ -19,18 +20,28 @@ public class Player
 
   public Player(string Name, int Mana, int Health, int Troops)
   {
-    /*if (Area.Biomes.Count > 0)
-          {
-            Random random = new Random();
-            int randNum = random.Next(1, Area.Biomes.Count);
-            this.Biome = Area.Biomes[0];
-          } */
 
+
+    AddBiome();
     this.Name = Name;
     this.Mana = Mana;
     this.Health = Health;
     this.Troops = Troops;
     this.TotalTroops = 0;
     this.TotalArea = 0;
+  }
+
+  private void AddBiome()
+  {
+    if (Area.Biomes.Count < 0)
+      throw new BiomeDoesNotExist("Biomes is still non-existent.");
+
+    if (Area.Biomes.Count == 0)
+    {
+      this.Biome = Area.Biomes[0];
+    }
+    Random random = new Random();
+    int randNum = random.Next(0, Area.Biomes.Count);
+    this.Biome = Area.Biomes[randNum];
   }
 }
