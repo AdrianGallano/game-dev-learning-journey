@@ -8,8 +8,10 @@ public interface ICardSkill
 
 public interface ICardSkillBeing : ICardSkill
 {
-  public void DoAttack(int Damage);
-  public void DoDefend(int DefensePower);
+  public void DoAttack(ref CardBeing entity);
+  public void DoAttack(ref CardBuillding entity);
+  public void SetDefense();
+  public void SetAttack();
 
 }
 
