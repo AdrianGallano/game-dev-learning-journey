@@ -1,4 +1,5 @@
 using CardWars.Exceptions;
+using System.Diagnostics;
 
 namespace CardWars.Events;
 
@@ -40,7 +41,6 @@ public static class PlayerCreation
     if (!PlayerAlreadyExist(playerName) && CreatePlayer(playerName))
     {
       Console.WriteLine($"Player Successfully Created.");
-      Console.Clear();
     }
 
   }
@@ -70,9 +70,10 @@ public static class PlayerCreation
       Console.Write("Enter Player Max: ");
       PlayerMax = Convert.ToInt32(Console.ReadLine());
     }
-    catch (FormatException)
+    catch (Exception e)
     {
       Console.WriteLine($"Input is Invalid. Enter a valid player maximum.");
+      Debug.WriteLine(e);
       return false;
     }
     return true;

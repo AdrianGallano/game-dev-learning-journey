@@ -1,4 +1,5 @@
 using CardWars.Cards.CardComponents;
+using CardWars.Exceptions;
 
 
 namespace CardWars.Cards;
@@ -18,7 +19,7 @@ public abstract class CardBuillding : Card, ICardSkillBuilding
   public void Activate()
   {
 
-    if (Game.CurrentPlayer == null) return;
+    if (Game.CurrentPlayer == null) throw new CurrentPlayerDoesNotExist("Player does not exist.");
     Game.CurrentPlayer.TotalArea += AreaCost;
 
   }

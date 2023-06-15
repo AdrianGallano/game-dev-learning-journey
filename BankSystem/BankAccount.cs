@@ -47,7 +47,7 @@ namespace BankSystem
     {
       if (Amount <= 0)
       {
-        throw new InvalidOperationException("Please enter a valid amount");
+        throw new ArgumentOutOfRangeException("Please enter a valid amount");
       }
 
       AllTransactions.Add(new Transaction(Amount, DateTime.Now, Notes));
@@ -57,9 +57,9 @@ namespace BankSystem
     {
       if (this.Balance < Amount)
       {
-        throw new OverflowException("Not enough balance to withdraw");
-
+        throw new InvalidOperationException("Not enough balance to withdraw");
       }
+
       AllTransactions.Add(new Transaction(-Amount, DateTime.Now, Notes));
     }
 

@@ -1,7 +1,6 @@
 using System.IO;
 using System.Diagnostics;
 using FileApp.Exceptions;
-using Newtonsoft.Json;
 
 
 namespace FileApp

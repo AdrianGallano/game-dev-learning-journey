@@ -19,6 +19,7 @@ public class Deck
         Case 2: Removing existing card/s in deck.
         Case 3: No Modification/s.
         """);
+      return;
     }
 
     if (cards.Length > 0)
