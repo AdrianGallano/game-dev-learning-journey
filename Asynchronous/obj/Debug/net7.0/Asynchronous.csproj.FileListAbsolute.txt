@@ -1,0 +1,15 @@
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\bin\Debug\net7.0\Asynchronous.exe
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\bin\Debug\net7.0\Asynchronous.deps.json
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\bin\Debug\net7.0\Asynchronous.runtimeconfig.json
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\bin\Debug\net7.0\Asynchronous.dll
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\bin\Debug\net7.0\Asynchronous.pdb
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\obj\Debug\net7.0\Asynchronous.csproj.AssemblyReference.cache
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\obj\Debug\net7.0\Asynchronous.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\obj\Debug\net7.0\Asynchronous.AssemblyInfoInputs.cache
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\obj\Debug\net7.0\Asynchronous.AssemblyInfo.cs
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\obj\Debug\net7.0\Asynchronous.csproj.CoreCompileInputs.cache
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\obj\Debug\net7.0\Asynchronous.dll
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\obj\Debug\net7.0\refint\Asynchronous.dll
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\obj\Debug\net7.0\Asynchronous.pdb
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\obj\Debug\net7.0\Asynchronous.genruntimeconfig.cache
+C:\Users\Aid\development\c#\game-dev-learning-journey\Asynchronous\obj\Debug\net7.0\ref\Asynchronous.dll
